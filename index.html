@@ -9,9 +9,38 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
-
-
+    <div class="blackBar"></div>
+    <div class="container">
+        <header>
+            <h1>Favorites</h1>
+        </header>
+        <section class="favorites">
+            <h2>Cities</h2>
+                <ul class="favoritesList">
+                    <li>London</li>
+                    <li>New York</li>
+                    <li>San Francisco</li>
+                </ul>
+            <h2>Dog Breads</h2>
+                <ul class="favoritesList">
+                    <li>Corgi</li>
+                    <li>Labrador Retreiver</li>
+                </ul>
+                <p>Do you like dogs?</p>
+                    <button id="yesBtn">Yes</button>
+                    <button id="noBtn">No</button>
+            <h2>Food</h2>
+                <p>Roll over your favorite!</p>
+                <ul class="favoritesList">
+                    <li onmouseover="sushi(this)">Sushi</li>
+                    <li onmouseover="icecream(this)">Ice Cream</li>
+                    <li onmouseover="pizza(this)">Pizza</li>
+                </ul>
+        </section>
+        <footer>
+            <p>&copy; HayleyMac Designs</p>
+        </footer>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>
